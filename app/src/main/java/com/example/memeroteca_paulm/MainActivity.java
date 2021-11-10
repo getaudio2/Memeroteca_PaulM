@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
                 List<Meme> memeList = response.body();
                 String[] oneMeme = new String[memeList.size()];
 
-                for (int i = 0; i < memeList.size(); i++) {
+                for (int i = 0; i < 3; i++) {
                     oneMeme[i] = memeList.get(i).getName();
                 }
 
